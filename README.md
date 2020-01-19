@@ -1,20 +1,22 @@
 # ROBOT-B-VZXR
-Compilation (et compréhension du programme)
-Objectifs
+# Compilation (et compréhension du programme)
+
+# Objectifs
 L'objectif de ce TP est de s’exercer avec le langage Python tout en manipulant les fichiers, les tableaux de variables, des séquences d’instructions conditionnelles et répétitives.... 
 
 Le programme écrit est un système simplifié de lecture d'instructions par un petit robot téléguidé, nommé B-VZXR.
 Le but de l'exercice est de construire un programme qui lit une suite d'instruction et donne la position finale de B-VZXR
 
 Pour compiler notre code à la main, nous allons suivre quelques étapes.
-Mise en place
+# Mise en place
 Les prérequis pour exécuter le programme sont :
 -	Avoir installé Python sur sa machine
 -	Avoir installé un éditeur et compilateur de code Python 
 (Spyder est un environnement de développement pour Python. Libre et multiplateforme qui intègre de nombreuses bibliothèques d'usage scientifique. C’est l’IDE que nous avons utilisé pour le développement de ce programme)
 Sachant qu'on peut utiliser d'autres IDE autre que celui-ci
 
-L'univers du robot B-VZXR vit dans un espace rectangulaire plat, comme un échiquier de taille n * p.
+# L'univers du robot 
+B-VZXR vit dans un espace rectangulaire plat, comme un échiquier de taille n * p.
 Chacune des n * p positions, ou cases, est définie par son abscisse et son ordonnée.
 
 Le robot naît toujours sur la case en bas à gauche (ie. d'abscisse et d'ordonnée nulle), la tête vers le haut
@@ -25,7 +27,7 @@ width: 120
 height: 100
 On a donc un espace de 120 cases en largeur X 100 cases en hauteur.
 
-Le langage du robot
+# Le langage du robot
 Le petit robot ne comprend qu'un seul type d'instruction, qu'il lit de manière séquentielle.
 Une instruction est composée de deux éléments :
 
@@ -84,7 +86,7 @@ Apres avoir enregistré le ficher, pour poursuivre l’exécution, Il voudra vou
 $ python get_final_position.py instrucion_list.txt universe.txt
 
 
-Compilation (Dans la console de l’ordinateur)
+# Compilation (Dans la console de l’ordinateur)
 
 Tapez cette commande sur votre terminal :
 
@@ -123,6 +125,8 @@ $  cd E:\cours\entretien\new
  $  python get_final_position.py instrucion_list.txt universe.txt
  
 ------------------------------------------------------------
+
+
 
 
 Voici le rendu du programme avec les positions du robot B-VZXR X et de Y
