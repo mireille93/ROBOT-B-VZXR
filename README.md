@@ -5,6 +5,7 @@ Comment exécuter?
 Tapez ces commandes sur votre terminal
 
 python repertoire_du_fichier_get_final_position.py repertoire_du_fichier_instruction_list.txt repertoire_du_fichier_universe.txt
+
 //
 //
 exemple:
@@ -13,6 +14,7 @@ exemple:
 ------------------------------------------------------------
 //
 //
+
 Si tous les fichiers sont dans le meme repertoire, tapez les commandes
  1ere commande:
 
